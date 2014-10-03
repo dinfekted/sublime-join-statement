@@ -100,3 +100,9 @@ hash_table = {'key1': 'val1', 'key2': {
 | Unjoin statement (as arguments)  | [detects automatically] | JoinStatement: Unjoin (as arguments) |
 | Join statement (after bracket)   | enter                   |                                      |
 | Unjoin statement (after bracket) | alt+/                   |                                      |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-expression
+- https://github.com/shagabutdinov/sublime-statement
