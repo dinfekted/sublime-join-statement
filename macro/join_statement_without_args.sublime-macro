@@ -1,0 +1,16 @@
+[
+  {
+    "command": "join_statement",
+    "args": {
+      "as_arguments": false
+    }
+  },
+
+  {
+    "command": "move",
+    "args": {
+      "by": "characters",
+      "forward": true
+    }
+  }
+]

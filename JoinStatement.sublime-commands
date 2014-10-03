@@ -1,0 +1,34 @@
+[
+  {
+    "caption": "JoinStatement: Join",
+    "command": "join_statement",
+    "args": {
+      "as_arguments": false
+    }
+  },
+
+  {
+    "caption": "JoinStatement: Unjoin",
+    "command": "unjoin_statement",
+    "args": {
+      "as_arguments": false
+    }
+  },
+
+  {
+    "caption": "JoinStatement: Join (as arguments)",
+    "command": "join_statement",
+    "args": {
+      "as_arguments": true
+    }
+  },
+
+  {
+    "caption": "JoinStatement: Unjoin (as arguments)",
+    "command": "unjoin_statement",
+    "args": {
+      "as_arguments": true
+    }
+  }
+
+]
