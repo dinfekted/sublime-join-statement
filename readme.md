@@ -5,7 +5,7 @@ Joins and unjoins whole statements.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-join-statement/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/join_statement.gif "Demo")
 
 
 ### Installation
@@ -104,5 +104,5 @@ hash_table = {'key1': 'val1', 'key2': {
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-expression
-- https://github.com/shagabutdinov/sublime-statement
+* [Expression](https://github.com/shagabutdinov/sublime-expression)
+* [Statement](https://github.com/shagabutdinov/sublime-statement)

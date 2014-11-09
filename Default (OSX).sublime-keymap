@@ -9,6 +9,7 @@
       "as_arguments": false
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_arguments", "operator": "equal", "operand": false}
     ]
   },
@@ -20,6 +21,7 @@
       "as_arguments": false
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_arguments", "operator": "equal", "operand": false}
     ]
   },
@@ -31,6 +33,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_arguments", "operator": "equal", "operand": true}
     ]
   },
@@ -42,6 +45,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "in_arguments", "operator": "equal", "operand": true}
     ]
   },
@@ -53,6 +57,7 @@
       "as_arguments": false
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "preceding_text", "operator": "regex_contains", "operand": "[({\\[]$", "match_all": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^[^)}\\]]", "match_all": true},
@@ -67,6 +72,7 @@
       "as_arguments": true
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "preceding_text", "operator": "regex_contains", "operand": "[({\\[]$", "match_all": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^[^)}\\]]", "match_all": true},
@@ -86,6 +92,7 @@
       "file": "res://Packages/JoinStatement/macro/join_statement_without_args.sublime-macro"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "preceding_text", "operator": "regex_contains", "operand": "[({\\[]$", "match_all": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^$", "match_all": true},
@@ -100,6 +107,7 @@
       "file": "res://Packages/JoinStatement/macro/join_statement_with_args.sublime-macro"
     },
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true},
       {"key": "preceding_text", "operator": "regex_contains", "operand": "[({\\[]$", "match_all": true},
       {"key": "following_text", "operator": "regex_contains", "operand": "^$", "match_all": true},
