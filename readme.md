@@ -106,3 +106,4 @@ hash_table = {'key1': 'val1', 'key2': {
 
 * [Expression](https://github.com/shagabutdinov/sublime-expression)
 * [Statement](https://github.com/shagabutdinov/sublime-statement)
+* [ContextInArguments](https://github.com/shagabutdinov/sublime-context-in-arguments)
