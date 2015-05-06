@@ -53,7 +53,7 @@ class Base(sublime_plugin.TextCommand):
       delimeter_start = len(delimeter) - len(delimeter.lstrip())
       scope = self.view.scope_name(token[1] + delimeter_start)
 
-      if 'operator.logical' in scope:
+      if delimeter.strip() in ['or', 'and', '&&', '||']:
         new_token = [last[0], token[1]]
         tokens.append(new_token)
         last = next_token
