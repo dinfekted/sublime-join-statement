@@ -6,10 +6,11 @@ import re
 try:
   from Expression import expression
   from Statement import statement
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "JoinStatement plugin for installation instructions; to disable this " +
-   "message remove this plugin")
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 class Base(sublime_plugin.TextCommand):
   def _get_info(self, sel, as_arguments):
